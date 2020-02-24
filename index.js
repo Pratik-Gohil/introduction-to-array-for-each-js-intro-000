@@ -4,3 +4,6 @@ function doToElementsInArray(array, callback) {
 }
 
 // Add your changeCompletely() function here:
+function changeCompletely(array) {
+  array.forEach(elem => alert(elem))
+}
