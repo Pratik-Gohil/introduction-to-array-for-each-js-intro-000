@@ -6,4 +6,7 @@ function doToElementsInArray(array, callback) {
 // Add your changeCompletely() function here:
 function changeCompletely(array, callback) {
   array.forEach(callback)
+  function callback(elem) {
+    alert(elem)
+  }
 }
